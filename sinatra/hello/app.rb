@@ -1,5 +1,5 @@
 require "sinatra"
-get "/" do
-    status 200
-"Hello, Sinatra"
+get "/hello" do
+  "Hello, Sinatra"
 end
+
